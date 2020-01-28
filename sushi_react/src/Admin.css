@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Trebuchet-MS;
+  src: url(./assests/fonts/Trebuchet-MS.ttf);
+}
+
+.Admin-container {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-image: url("background.png");
+
+  text-align: center;
+  /* display: flex; */
+  background-size: cover;
+  display: flex;
+}
+
+/* @media only screen and (min-width: 601px) { */
+.Admin-box {
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 9px;
+  filter: drop-shadow(0.07px 1.999px 2.5px rgba(0, 0, 0, 0.6));
+  background-color: #ffffff;
+}
+
+.Admin-sidebar {
+  width: 20%;
+  height: 100%;
+  background-color: #6f6f6f;
+  border-radius: 9px 0 0 9px;
+  box-shadow: 4px 0 #e8e8e8;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Admin-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 73px;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.Admin-logout {
+  /* width: 193px; */
+  height: 50px;
+  line-height: 50px;
+  border-radius: 8px;
+  background-color: #000000;
+  margin: 0 20px;
+  display: flex;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "Trebuchet-MS";
+  font-weight: bold;
+  text-align: center;
+}
+
+.Admin-Dashboard {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Dashboard-title {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: #e8e8e8;
+
+  border-radius: 0 9px 0 0;
+  font-size: 36px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+}
+
+.Dashboard-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
