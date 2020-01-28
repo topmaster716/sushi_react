@@ -21,8 +21,9 @@
   background-size: contain;
   width: 300px;
   height: 0px;
-  padding-top: 18%;
+  padding-top: 15%;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .Login-box {
