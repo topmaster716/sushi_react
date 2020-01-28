@@ -50,6 +50,7 @@ class UserName extends React.Component {
         </div>
         <div className="input-container">
           <input
+            onClick={event => (window.location.href = "/Admin")}
             className="btn-login"
             type="button"
             name="login"
