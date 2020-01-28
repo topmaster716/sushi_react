@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assests/fonts/Montserrat-Medium.otf);
+}
+
+.Login-container {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+
+.Login-logo {
+  background-image: url("./assests/images/logotext.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+}
+
+.Login-box {
+  /* background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  height: 350px;
+  margin: auto;
+  padding-top: 10px; */
+
+  width: 400px;
+  height: 350px;
+  border-radius: 9px;
+  filter: drop-shadow(0.07px 1.999px 2.5px rgba(0, 0, 0, 0.6));
+  background-color: #ffffff;
+  padding-top: 10px;
+}
+
+.Login-slogo {
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+}
+
+.Img-key {
+  width: 95px;
+  margin: auto;
+}
+
+.input-username {
+  background-color: black;
+  border: none;
+
+  width: 250px;
+  height: 50px;
+
+  text-decoration: none;
+  display: inline-block;
+
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+}
+.input-username:focus {
+  outline: none !important;
+}
+.input-container {
+  padding-top: 25px;
+}
+
+.btn-login {
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  /* padding: 15px 32px; */
+  border-radius: 8px;
+
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-login:focus {
+  outline: none !important;
+}
